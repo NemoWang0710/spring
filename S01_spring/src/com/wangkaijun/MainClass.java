@@ -11,4 +11,5 @@ public class MainClass {
         Object person = context.getBean("person");
         System.out.println(ToStringBuilder.reflectionToString(person));
     }
+
 }

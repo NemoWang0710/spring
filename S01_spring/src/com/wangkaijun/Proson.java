@@ -22,6 +22,18 @@ public class Proson {
     private Occupation occupation;
 
 
+//    public Proson(){}
+
+    public Proson(String name, Integer age, Properties properties, List<String> list, Set<String> set, Map<String, String> map, Occupation occupation) {
+        this.name = name;
+        this.age = age;
+        this.properties = properties;
+        this.list = list;
+        this.set = set;
+        this.map = map;
+        this.occupation = occupation;
+    }
+
     public String getName() {
         return name;
     }
