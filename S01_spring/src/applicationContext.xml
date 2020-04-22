@@ -6,7 +6,7 @@
         <constructor-arg name="name" value="nemo"></constructor-arg>
         <constructor-arg name="age" value="18" type="java.lang.Integer"></constructor-arg>
         <constructor-arg name="properties">
-            
+            <value>wangkaijun=nemo</value>
         </constructor-arg>
 
         <constructor-arg name="list">
