@@ -2,7 +2,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd ">
-    <bean id="person" class="com.wangkaijun.Proson">
+    <bean id="person" name="humn,star" class="com.wangkaijun.Proson">
         <constructor-arg name="name" value="nemo"></constructor-arg>
         <constructor-arg name="age" value="18" type="java.lang.Integer"></constructor-arg>
         <constructor-arg name="properties">
@@ -30,4 +30,6 @@
     </bean>
 
     <bean id="occupation" class="com.wangkaijun.Occupation"></bean>
+
+    <alias name="person" alias="humn"/>
 </beans>
